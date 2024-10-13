@@ -16,7 +16,7 @@ For example:
 **packer**
 ```lua
 use({
-    'korkmazatakan/neovim_rsync',
+    'korkmazatakan/nvim_rsync',
     config = function()
         require('neovim_rsync').setup({
             username = 'atakankorkmaz' -- your remote username
@@ -28,7 +28,7 @@ use({
 **lazy**
 ```lua
 {
-    "korkmazatakan/neovim_rsync",
+    "korkmazatakan/nvim_rsync",
     branch = "master",
     config = function ()
         local nr = require('neovim_rsync')
